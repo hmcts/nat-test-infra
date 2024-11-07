@@ -26,6 +26,11 @@ module "networking" {
           next_hop_type          = "VirtualAppliance"
           next_hop_in_ip_address = "10.10.200.36"
         }
+        pin-test = {
+          address_prefix         = "10.10.220.0/22"
+          next_hop_type          = "VirtualAppliance"
+          next_hop_in_ip_address = "10.10.200.36"
+        }
       }
     }
   }

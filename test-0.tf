@@ -6,7 +6,7 @@ module "test-0" {
   allowed_source_address_prefix = "10.10.221.0/24"
 
   providers = {
-    azurerm = azurerm
+    azurerm     = azurerm
     azurerm.hub = azurerm.hub
   }
 }
